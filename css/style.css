@@ -9,16 +9,23 @@ body{
 }
 
 .container-fluid{
-    background-color: burlywood;
+    background-color: #9e6213;
     color: black;
     text-align: center;
     padding: 5px;
 }
 
+li{
+    background-color: aquamarine;
+    color: black;
+    gap: 5px;
+}
+
 .container{
-    background-color: rgb(0, 255, 179);
+    background-color: #00ffb3;
     color: black;
     text-align: center;
+    align-items: center;
 }
 
 .navbar-brand{
@@ -61,6 +68,7 @@ body{
 }
 
 .icon{
-    font-size: large;
+    font-size: 1.2rem;
     color: green;
+    padding: 13px;
 }
