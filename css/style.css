@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: #800064;
+    color: black;
+}
+.nav{
+    background-color:#800064;
+    color: black;
+    margin: 2px;
+    padding: 14px;
+}
