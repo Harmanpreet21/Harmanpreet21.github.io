@@ -3,6 +3,17 @@
     box-sizing: border-box;
 }
 
+.container{
+    text-align: center;
+    justify-content: space-around;
+}
+
+h1{
+    background-color: #2ea7a7;
+    color: black;
+    text-align: center;
+}
+
 .container-fluid{
     background-color: #800064;
     color: black;
