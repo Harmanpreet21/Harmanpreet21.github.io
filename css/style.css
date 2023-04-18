@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     background-image: url("/img/Moon.svg");
 }
