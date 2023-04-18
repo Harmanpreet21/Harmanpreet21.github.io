@@ -5,8 +5,8 @@
 }
 
 body{
-    background-image: url("img/background-image");
-    color: #cccccc;
+    width: 100%;
+    background-image:  url("img/background-image");
 }
 
 .container-fluid{
