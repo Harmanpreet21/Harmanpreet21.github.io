@@ -22,7 +22,13 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Hoger-Lager</a>
+                            <a class="dropdown-item" href="#">Tic-Tac-Toe</a>
+                            <div class="dropdown-divider">EscapeRoom</div>
+                        </div>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -31,13 +37,77 @@
             </div>
         </div>
     </nav>
-    <div class="card text-start">
-      <img class="card-img-top" src="img/Moon.svg" alt="Title">
-      <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Body</p>
+    <!--section-->
+    <div class="text-center">About</div>
+    <section id="container">
+        <div class="row">
+            <div class="column">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Title</h3>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Title</h3>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Title</h3>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
