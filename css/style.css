@@ -7,12 +7,12 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg");
-    width: '1440';
-    height: '560';
+    width: 1440;
+    height: 560;
 }
 
 .container-fluid {
-    background-color: #9e6213;
+    background-color: #00ccff;
     color: black;
     text-align: center;
     padding: 5px;
@@ -24,8 +24,7 @@ li {
     gap: 5px;
 }
 
-.container {
-    background-color: #00ffb3;
+.container-fluid {
     color: black;
     text-align: center;
     align-items: center;
@@ -63,7 +62,7 @@ li {
     font-weight: 600;
 }
 
-.card {
+.col {
     background-color: aqua;
     color: black;
     padding: 10px;
