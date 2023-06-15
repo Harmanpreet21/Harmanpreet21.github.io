@@ -80,3 +80,10 @@ li {
     padding: 10px;
     border: 2px solid black;
 }
+
+.contact-form {
+    display: inline-block;
+    background-color: bisque;
+    color: black;
+    font-size: large;
+}
