@@ -12,10 +12,9 @@ body {
 }
 
 .container-fluid {
-    background-color: #00ccff;
     color: black;
     text-align: center;
-    padding: 5px;
+    align-items: center;
 }
 
 li {
@@ -24,10 +23,10 @@ li {
     gap: 5px;
 }
 
-.container-fluid {
+.navbar-nav {
+    background-color: aliceblue;
     color: black;
-    text-align: center;
-    align-items: center;
+    padding: 5px;
 }
 
 .navbar-brand {
