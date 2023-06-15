@@ -13,6 +13,7 @@ body {
 .navbar-nav {
     background-color: aliceblue;
     color: black;
+    gap: 20px;
     padding: 5px;
 }
 
