@@ -15,48 +15,60 @@
   <nav class="navbar navbar-expand-sm navbar-dark bg-success">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Portfolio</a>
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation"></button>
       <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="#Home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#Project" role="button"
-              aria-haspopup="true" aria-expanded="false">Project</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#Hoger-Lager">Hoger-Lager</a>
-              <a class="dropdown-item" href="#Tic-Tac-Toe">Tic-Tac-Toe</a>
-              <div class="dropdown-item" href="#EscapeRoom">EscapeRoom</div>
-            </div>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
-        </ul>
+        <div class="list-group">
+          <a href="#" class="btn btn-success"></a>
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#Project" role="button"
+                aria-haspopup="true" aria-expanded="false">Project</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#Hoger-Lager">Hoger-Lager</a>
+                <a class="dropdown-item" href="#Tic-Tac-Toe">Tic-Tac-Toe</a>
+                <div class="dropdown-item" href="#EscapeRoom">EscapeRoom</div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-twitter"></i></a>
+        </div>
       </div>
     </div>
+    </div>
   </nav>
+
   <!--About-->
   <div class="container-fluid">
     <div class="text-center">
-      <h1 class="text-black">About</h1>
-      <div class="row">
-        <div class="col-lg-10">
-          <hr class="star-light">
+      <h1 class="title">About Me</h1>
+      <div class="about-content">
+        <div class="column-left">
+          <img src="" alt="Portfolio Image">
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <p class="content-text"></p>
-        </div>
+      <div class="column-right">
+        <div class="text"> I am Harmanpreet Kaur.<span class="typing-1"></span></div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia voluptates nobis placeat, deserunt quis
+          alias commodi illum sed, dolorem, temporibus enim molestias laboriosam quia ab at. Ut explicabo molestiae
+          repudiandae.</p>
       </div>
     </div>
   </div>
+
+  <!--Project-->
+  <div class="project"></div>
 
   <!--Contact-->
   <div class="container-fluid">
@@ -67,25 +79,25 @@
         consequatur pariatur.</p>
     </div>
     <form>
-    <div class="d-flex align-items-center justify-content-center">
-      <div class="bg-white col-md-5">
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="bg-white col-md-5">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email address" class="form-label">E-mail Address</label>
+            <input type="email" class="form-control" name="email" id="e-mail address" aria-describedby="helpId"
+              placeholder="Email address" required>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Message</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Message" required>
+          </div>
+          <button type="button" class="btn btn-secondary btn-lg">Send</button>
         </div>
-        <div class="mb-3">
-          <label for="email address" class="form-label">E-mail Address</label>
-          <input type="email" class="form-control" name="email" id="e-mail address" aria-describedby="helpId"
-            placeholder="Email address" required>
-        </div>
-        <div class="mb-3">
-          <label for="name" class="form-label">Message</label>
-          <input type="text" class="form-control" name="name" id="name" placeholder="Message" required>
-        </div>
-        <button type="button" class="btn btn-secondary btn-lg">Send</button>
       </div>
-    </div>
-  </form>
+    </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
